@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    label {
+        font-size: x-large;
+    }
+
+    table {
+        background-color: rgb(57, 161, 179);
+    }
+
+    input {
+        font-size: x-large;
+    }
+
+    td {
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Registration Form</h1>
+        <table border="5" style="border-radius: 8px; color: rgb(6, 10, 10);">
+            <form action="index.html">
+
+                <tr>
+                    <td>
+                        <label class="fa fa-user"> FIRST NAME</label>
+                    </td>
+                    <td>
+                        <input type="text" id="txtFirstName" placeholder="First Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-user"> MIDDLE NAME</label>
+                    </td>
+                    <td>
+                        <input type="text" id="txtMiddleName" placeholder="Middle Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-user"> LAST NAME</label>
+                    </td>
+                    <td>
+                        <input type="text" id="txtLastName" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-envelope"> Email</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email" id="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-phone-square"> Phone Number</label>
+                    </td>
+                    <td>
+                        <input type="number" id="Phone" placeholder="Phone Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-venus-mars"> Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="Gender" value="Male">Male
+                        <input type="radio" name="gender" id="Gender" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-line-chart"> Age</label>
+                    </td>
+                    <td>
+                        <input type="tel" placeholder="Age" id="Age" max="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-calendar-check-o"> Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="date" id="DOB">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-upload"> Upload CV</label>
+                    </td>
+                    <td>
+                        <input type="file" id="File">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-question"> What is your favourite food?</label>
+                    </td>
+                    <td>
+                        <input type="text" id="FavFood" placeholder="Favourite Food">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-question"> What is your hobby?</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Hobby" placeholder="Hobby">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-lock"> Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="Password" placeholder="Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-unlock-alt"> Confirm Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="CPassword" placeholder="Confirm Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-address-card"> Address</label>
+                    </td>
+                    <td>
+                        <textarea id="Address" cols="38" rows="2"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="fa fa-map-pin"> Pincode</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="Pincode" placeholder="Pincode" maxlength="6">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <i class="fa fa-check-circle"></i>
+                        <input type="checkbox" id="T&C">
+                        <label> Accept our T&C?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+
+
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>
+<div class="md-6 mb-4">
+    <h1>login </h1>
